@@ -18,9 +18,6 @@ class CoinDetailsViewModel(
     val state: State<CoinDetailsState> = _state
 
     init {
-        /*savedStateHandle.get<String>(Constants.PARAM_COIN_ID)?.let {
-            getCoinDetails(it)
-        }*/
         getCoinDetails(coinId)
     }
 
